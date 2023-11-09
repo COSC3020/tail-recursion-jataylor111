@@ -15,3 +15,6 @@ implementation. What changes between iterations of the loop?
 Is the asymptotic complexity of tail-recursive Fibonacci different from the
 non-tail-recursive version? Why, or why not? Add your answer, including your
 reasoning, to this markdown file.
+
+## My Response
+Yes, the tail recursive version of the fibonacci sequence has a different complexity.  The tail recursive version should have a complexity of $\Theta(n)$ due to the fact that each recursive call is only instance at a time, so there aren't any other recursive calls floating around waiting for the calculations to finish, it just runs each call individually 
